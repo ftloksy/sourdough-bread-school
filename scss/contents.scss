@@ -1,0 +1,63 @@
+
+
+//
+//.our-story-card-img-container.kidsValueProp {
+//      position: relative;
+//        width: auto;
+//}
+
+//.our-story-card.animation-card.kidsValueProp {
+//	@extend .flex-row-reverse;
+//	@extend .white-left;
+//	background-color: black;
+//}
+
+
+@mixin content($direction, $bigpicture: false) {
+	background-color: black;
+//	@extend .flex-row-center;
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+
+	@extend .white-left;
+	@extend .our-story-card;
+	
+	> text {
+
+		> h1 {
+			@extend .big-title;
+		}
+
+		> h2 {
+			@extend .bold-med-font;
+		}
+	}
+
+	@if $bigpicture {
+		> quote {
+
+			> img.background {
+				width: 650px;
+				height: 600px;
+				padding: 10px;
+			}
+		}
+
+	} @else {
+		
+		> img {
+			width: 400px;
+			height: 400px;
+			padding: 20px;
+		}
+	}	
+}
+
+breadcontent {
+	@include content(row, $bigpicture: false);
+}
+
+noodlecontent {
+	@include content(row-reverse, $bigpicture: false);
+}

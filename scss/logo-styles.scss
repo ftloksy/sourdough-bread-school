@@ -1,0 +1,25 @@
+//
+
+header {
+	display: block;
+//	min-width: 800px;
+	background: url(../images/layout/header.jpg);
+	height: 250px;
+}
+
+object.logo {
+        height: 100px;
+        width: 200px;
+        padding-top: .5rem;
+        padding-left: 2.5rem;
+        fill: $main-red;
+        line-height: normal;
+}
+
+span.logo-title {
+	position: relative;
+	top: -15px;
+	left: 10px;
+	@extend .logo-font;
+	color: $main-red;
+}

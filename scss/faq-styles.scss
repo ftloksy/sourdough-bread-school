@@ -1,0 +1,71 @@
+// Can delete.
+.faq-card {
+	@extend .white-center;
+	background-color: black;
+}
+
+//faqlist {
+//	@extend .faq-card;
+//	@extend .our-story-card;
+
+//	> ul {
+	//	@extend .faq-card.box;
+//		@extend .center-box;
+//	}
+
+//}
+
+.font-in-the-box {
+	width: 100%;
+        margin-bottom:1px;
+        padding:.8em 2.2em .8em 1.2em;
+        position:relative;
+}
+
+.center-box {
+        width: 75%;
+        margin: 2em auto;
+        max-width: 815px;  
+}
+
+.grey-white {
+        background: $grey;
+	color: $white;
+}
+
+.faq-card .faq-answer {
+	@extend .grey-white;
+	@extend .faq-font;
+}
+
+.faq-card .faq-question{
+        @extend .bold-font;
+	@extend .font-in-the-box;
+	@extend .grey-white;
+}
+    
+.faq-card.box {
+	@extend .center-box;
+}
+
+        
+.faq-card .svg-icon-thin-x{
+        position: absolute;
+        height: 40ox;
+        width: 40px;
+	right: 40px;
+        fill: $white;
+}
+
+ul.faq-card.box {
+    list-style-type: none;
+}
+
+div.faq-answer {
+	> figure {
+		> img {
+			width: 500px;
+			height: 300px;
+		}
+	}
+}

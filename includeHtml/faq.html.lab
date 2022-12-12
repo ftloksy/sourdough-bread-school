@@ -1,0 +1,237 @@
+<!-- cut start here -->
+
+<div class="our-story-card faq-card" id="faq">
+	<ul class="faq-card box">
+	<h1 class="our-story-card-title">Frequently Asked Questions</h1>
+	<!-- Faq content is copy-cat from https://www.kingarthurbaking.com/learn/guides/sourdough/faq -->
+		<li class="faq-list-item">
+			<button class="faq-question">
+				I haven't fed my starter
+				<svg width="26" height="26" id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-open" focusable="true">
+					<path d="M10.5 9.3
+						L1.8 0.5 0.5 1.8 9.3 10.5 0.5 
+						19.3 1.8 20.5 10.5 11.8 19.3 
+						20.5 20.5 19.3 11.8 10.5 20.5 
+						1.8 19.3 0.5 10.5 9.3Z">
+					</path>
+				</svg>
+			</button>
+			<div class="faq-answer">
+				        <p>
+						If your sourdough starter sits in the refrigerator for too long between feedings, 
+						it will develop a thick layer of liquid on top, and will be sluggish (not produce many bubbles).
+					</p>
+
+        				<p>
+						If this happens, stir the liquid back into the starter and discard all but 113g (about 1/2 cup). 
+						Feed with 113g (1/2 cup) water and 113g (1 scant cup) flour. 
+						If the starter is still alive, it will begin to bubble after a few hours. 
+						Once this happens, measure out 113g and feed once again with 113g each water and flour. 
+						If the starter becomes bubbly and expanded within 12 hours, 
+						it's ready for one final feeding before use, or to be put back in the refrigerator for storage.
+					</p>
+
+        				<figure>
+          					<img src="//web-guides.s3.amazonaws.com/sourdough/faq/revive-a-hungry-starter.jpg" alt="">
+        				</figure>
+
+       					<p>
+						If your sourdough starter begins to mold, 
+						or the odor is not the usual clean, 
+						sour aroma (an alcohol smell is OK), 
+						or if it develops a pink or orange color, 
+						throw it out. It's very rare for this to happen, 
+						so don't worry.
+					</p>
+			</div>
+		</li>
+		<li class="faq-list-item">
+			<button class="faq-question">
+				What is gluten and how does it work?
+				<svg width="26" height="26" id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+					<path d="M10.5 9.3
+						L1.8 0.5 0.5 1.8 9.3 10.5 0.5 
+						19.3 1.8 20.5 10.5 11.8 19.3 
+						20.5 20.5 19.3 11.8 10.5 20.5 
+						1.8 19.3 0.5 10.5 9.3Z">
+					</path>
+				</svg>
+			</button>
+			<div class="faq-answer">
+				<p>
+					Gluten, the heart and soul of yeast bread's 
+					size, shape, and crumb, is made of two proteins: 
+					gliadin and glutenin. 
+					These proteins are activated when water is added to flour.
+				</p>
+
+        			<p>
+					Gliadin makes dough extensible (stretchable); 
+					glutenin encourages it to "snap back" like a rubber band. 
+					Kneading dough aligns its gluten strands, 
+					forming them into a web. 
+					This web traps the gas created by yeast — 
+					which causes bread to rise.
+				</p>
+
+        			<figure style="padding:66.67% 0 0 0;position:relative;">
+          				<iframe title="What is gluten and how does it work?" 
+						src="https://player.vimeo.com/video/287652511" 
+						allow="autoplay; fullscreen" allowfullscreen="" 
+						style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+						frameborder="0">
+					</iframe>
+        			</figure>
+			</div>
+		</li>
+		<li class="faq-list-item">
+			<button class="faq-question">
+				Why are some sourdoughs more sour?
+				<svg width="26" height="26" id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+					<path d="M10.5 9.3
+						L1.8 0.5 0.5 1.8 9.3 10.5 0.5
+						19.3 1.8 20.5 10.5 11.8 19.3
+						20.5 20.5 19.3 11.8 10.5 20.5
+						1.8 19.3 0.5 10.5 9.3Z">
+					</path>
+				</svg>
+			</button>
+			<div class="faq-answer">
+			        <p>
+					The flavor of your bread is more dependent 
+					on your bread recipe than the flavor of your starter. 
+					Simply put, the longer your bread rises (up to a point), 
+					the richer its flavor will be.
+				</p>
+
+        			<p>
+					And, the temperature at which your loaf rises makes a difference. 
+					The wild yeast in sourdough produces both acetic and 
+					lactic acids as it consumes the starch and sugars in bread dough. 
+					When the dough is refrigerated, 
+					the yeast tends to produce more acetic acid than lactic acid. 
+					Since acetic acid is quite sour (think vinegar), 
+					bread dough that rises in the refrigerator overnight will tend to 
+					produce a more sour loaf than dough that rises for several hours at room temperature.
+				</p>
+
+        			<figure>
+          				<img src="//web-guides.s3.amazonaws.com/sourdough/faq/stronger-flavor.jpg" alt="">
+        			</figure>
+			</div>
+		</li>
+		<li class="faq-list-item">
+			<button class="faq-question">
+				Is there any validity to using pineapple juice, honey, or organic grapes in sourdough starter?
+				<svg width="26" height="26" id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+					<path d="M10.5 9.3
+						L1.8 0.5 0.5 1.8 9.3 10.5 0.5 
+						19.3 1.8 20.5 10.5 11.8 19.3 
+						20.5 20.5 19.3 11.8 10.5 20.5 
+						1.8 19.3 0.5 10.5 9.3Z">
+					</path>
+				</svg>
+			</button>
+			<div class="faq-answer">
+				<h1 class="big-title">No! No! No!</h1>	
+				<p>
+					Just can add wheat, spelt, wholemeat wheat, rye ..... flour.
+				</p>
+				<p>
+					If you add another-things to start, It will develop to color mold.
+					and If you add sweet-things to start, 
+					your sourdough bread isn't good for your health.
+				</p>
+			</div>
+		</li>
+		<li class="faq-list-item">
+			<button class="faq-question">
+				What role does each ingredient play?
+				<svg width="26" height="26" id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+					<path d="M10.5 9.3
+						L1.8 0.5 0.5 1.8 9.3 10.5 0.5 
+						19.3 1.8 20.5 10.5 11.8 19.3 
+						20.5 20.5 19.3 11.8 10.5 20.5 
+						1.8 19.3 0.5 10.5 9.3Z">
+					</path>
+				</svg>
+			</button>
+			<div class="faq-answer">
+				
+	        		<figure>
+	          			<img src="//web-guides.s3.amazonaws.com/sourdough/faq/ingredients.jpg" alt="">
+	        		</figure>
+	
+	        		<p>
+	          			<strong>Flour:</strong>
+	          				The cornerstone of sourdough, 
+						flour provides the food yeast feeds on, 
+						and hosts flavor-producing friendly bacteria as well. 
+						Combined with water, flour's protein develops into 
+						an elastic web (gluten) that traps 
+						the carbon dioxide gas given off by yeast, making dough rise.
+				</p>
+	
+	        		<p>
+	          			<strong>Water:</strong>
+	          				Water activates the gluten in flour. 
+						It's also a vital necessity for growing yeast; 
+						and is the "solvent" that disperses 
+						all of the remaining ingredients.
+				</p>
+	
+	        		<p>
+	          			<strong>Yeast:</strong>
+	          				The wild yeast in sourdough, Saccharomyces exiguus, 
+						is a different strain than domestic (manufactured) 
+						yeast (Saccharomyces cerevisiae). 
+						However, once wild yeast establishes a base population, 
+						it grows just as readily as packaged yeast. 
+						Yeast's main job in sourdough is to produce carbon dioxide gas, 
+						which makes starter or dough rise; and alcohol, 
+						which gives bread flavor.
+				</p>
+	
+	        		<p>
+	          			<strong>Salt:</strong>
+					        Not only does salt add flavor to bread, 
+						it controls the rate of fermentation by slowing down 
+						how quickly yeast consumes sugar. 
+						This ensures that there'll still be food left for the yeast 
+						when the risen loaf goes into the oven — 
+						enough to produce one final large discharge of carbon dioxide, 
+						resulting in oven spring. 
+						It also leaves enough sugar for optimum browning of 
+						the loaf's crust during baking.
+				</p>
+	
+	        		<p>
+	          			<strong>Sugar:</strong>
+	          				Carbohydrates in flour are broken down into complex sugars by 
+						an enzyme, amylase. Those complex sugars are broken down 
+						still further by friendly bacteria, 
+						creating the simple sugar yeast loves to eat. 
+						This is an efficient process; 
+						thus there's no need to add any sweetener 
+						(granulated sugar, honey) to your dough to "get the yeast going" or feed it.
+				</p>
+	
+	        		<p>
+	          			<strong>Fat:</strong>
+	          				Oil or butter will yield a softer crumb in bread, 
+						plus create rich mouthfeel. Beyond that, 
+						fat isn't a necessary component of sourdough bread.
+				</p>
+	
+			</div>
+		</li>
+	</ul>
+
+        <div id="email-input-hero">
+        </div>
+</div>
+
+
+
+
+<!-- cut Frankie end -->

@@ -1,0 +1,52 @@
+yestcontent {
+	@include content(row-reverse, $bigpicture: true);
+
+	> quote {
+		@extend .flex-row-center;
+		position: relative;
+		width: 650px;
+		height: 600px;
+		padding-right: 50px;
+
+		> img.dryyest {
+    		    position: absolute;
+    		    left: 380px;
+		}
+
+
+		> img.sourdough {
+		    position: absolute;
+		    left: 60px;
+		}
+
+		> vs {
+		    display: block;
+		    position: absolute;
+		    left: 300px;
+		    bottom: 400px;
+		    background: $icon-hover;
+		    color: $copyright-background;
+		    font-size: 56px;
+                    border: 5px solid $copyright-background;
+		    border-radius: 25px;
+		    padding: 10px;
+		}
+
+		> sourdough {
+		    display: block;
+		    position: absolute;
+		    left: 120px;
+		    bottom: 40px;
+		    font-size: 34px;
+		}
+
+		> quotetitle {
+		    display: block;
+		    position: absolute;
+		    left: 120px;
+		    bottom: 520px;
+		    font-size: 36px;
+		}
+
+	}
+}

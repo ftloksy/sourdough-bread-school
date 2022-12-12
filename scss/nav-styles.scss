@@ -1,0 +1,22 @@
+//
+nav {
+    color: $icon-text;
+    display: inline;
+    padding: 10px;
+    @extend .icon-font;
+    cursor: pointer;
+}
+
+nav:hover {
+	color: $icon-background;
+}
+
+navbar {
+    display: block;
+    position: relative;
+    min-width: 100%;
+    right: 20px;
+    bottom: -80px;
+    text-align: right;
+}
+

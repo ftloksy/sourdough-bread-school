@@ -1,0 +1,389 @@
+.normal-message-block {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+}
+
+.white-center, .faq-card {
+  text-align: center;
+  color: #fff;
+}
+
+.white-left, breadcontent, noodlecontent, yestcontent, gicontent, bakercontent {
+  text-align: left;
+  color: #fff;
+}
+
+.our-story-card, breadcontent, noodlecontent, yestcontent, gicontent, bakercontent {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+body, html {
+  direction: ltr;
+  font-size: 16px;
+  color: #333;
+  background: #000;
+}
+
+@font-face {
+  font-family: FuzzyBubblesFontsBold;
+  src: url(../fonts/FuzzyBubbles-Bold.ttf);
+}
+
+@font-face {
+  font-family: FuzzyBubblesFontsRegular;
+  src: url(../fonts/FuzzyBubbles-Regular.ttf);
+}
+
+@font-face {
+  font-family: AntonRegular;
+  src: url(../fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptBold;
+  src: url(../fonts/static/DancingScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptMedium;
+  src: url(../fonts/static/DancingScript-Medium.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptRegular;
+  src: url(../fonts/static/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptSemiBold;
+  src: url(../fonts/static/DancingScript-SemiBold.ttf);
+}
+
+.bold-font, .faq-card .faq-question {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.bold-med-font, .icon-font, nav, breadcontent > text > h2,
+noodlecontent > text > h2, yestcontent > text > h2, gicontent > text > h2,
+bakercontent > text > h2, bakercontent a {
+  font-size: 1.325rem;
+  font-weight: 400;
+}
+
+.big-title, .logo-font, span.logo-title, breadcontent > text > h1,
+noodlecontent > text > h1, yestcontent > text > h1, gicontent > text > h1,
+bakercontent > text > h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-family: DancingScriptSemiBold;
+}
+
+.small-title, copyright {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.faq-font, .faq-card .faq-answer {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.logo-font, span.logo-title {
+  font-family: AntonRegular;
+}
+
+.icon-font, nav, bakercontent a {
+  font-family: DancingScriptBold;
+}
+
+.flex-row, .flex-row-start, .flex-row-between, .flex-row-center-between {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-start {
+  align-items: flex-start;
+}
+
+.flex-row-between, .flex-row-center-between {
+  justify-content: space-between;
+}
+
+.flex-row-center-between {
+  justify-content: space-between;
+}
+
+.flex-footer-list-rows {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.flex-row-center, yestcontent > quote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-style, .btn-red, .btn-preferences, .btn-close {
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 3px 10px;
+  background: transparent;
+  border: 1px solid #303030;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.btn-red {
+  background-color: #e50914;
+  background-image: linear-gradient(180deg, #e50914, #db0510);
+  color: #fff;
+}
+
+.btn-preferences {
+  background-image: linear-gradient(180deg, #fff, #18db05);
+  color: #303030;
+}
+
+.btn-close {
+  background-image: linear-gradient(180deg, #fff, #0567db);
+  color: #303030;
+}
+
+header {
+  display: block;
+  background: url(../images/layout/header.jpg);
+  height: 250px;
+}
+
+object.logo {
+  height: 100px;
+  width: 200px;
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+  fill: #e50914;
+  line-height: normal;
+}
+
+span.logo-title {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  color: #e50914;
+}
+
+footer {
+  display: block;
+  background: url(../images/layout/footer.jpg);
+  height: 250px;
+}
+
+copyright {
+  text-align: center;
+  display: block;
+  color: #fff;
+  width: fit-content;
+  background: black;
+  border: 5px solid #586673;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+follow-me {
+  text-align: right;
+  display: block;
+  position: relative;
+  bottom: -150px;
+}
+follow-me > h2 {
+  color: #8b8b93;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+
+nav {
+  color: #9acefe;
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav:hover {
+  color: #c8996b;
+}
+
+navbar {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  right: 20px;
+  bottom: -80px;
+  text-align: right;
+}
+
+.faq-card {
+  background-color: black;
+}
+
+.font-in-the-box, .faq-card .faq-question {
+  width: 100%;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  position: relative;
+}
+
+.center-box, .faq-card.box {
+  width: 75%;
+  margin: 2em auto;
+  max-width: 815px;
+}
+
+.grey-white, .faq-card .faq-answer, .faq-card .faq-question {
+  background: #303030;
+  color: #fff;
+}
+
+.faq-card .svg-icon-thin-x {
+  position: absolute;
+  height: 40ox;
+  width: 40px;
+  right: 40px;
+  fill: #fff;
+}
+
+ul.faq-card.box {
+  list-style-type: none;
+}
+
+div.faq-answer > figure > img {
+  width: 500px;
+  height: 300px;
+}
+
+breadcontent {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+breadcontent > img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+noodlecontent {
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+noodlecontent > img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+yestcontent {
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+yestcontent > quote > img.background {
+  width: 650px;
+  height: 600px;
+  padding: 10px;
+}
+yestcontent > quote {
+  position: relative;
+  width: 650px;
+  height: 600px;
+  padding-right: 50px;
+}
+yestcontent > quote > img.dryyest {
+  position: absolute;
+  left: 380px;
+}
+yestcontent > quote > img.sourdough {
+  position: absolute;
+  left: 60px;
+}
+yestcontent > quote > vs {
+  display: block;
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+  background: #8dad4c;
+  color: #586673;
+  font-size: 56px;
+  border: 5px solid #586673;
+  border-radius: 25px;
+  padding: 10px;
+}
+yestcontent > quote > sourdough {
+  display: block;
+  position: absolute;
+  left: 120px;
+  bottom: 40px;
+  font-size: 34px;
+}
+yestcontent > quote > quotetitle {
+  display: block;
+  position: absolute;
+  left: 120px;
+  bottom: 520px;
+  font-size: 36px;
+}
+
+gicontent {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+gicontent > img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+bakercontent {
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+bakercontent > img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+bakercontent a {
+  display: block;
+  padding-left: 40px;
+  color: #9acefe;
+}
+bakercontent a:hover {
+  color: #c8996b;
+  text-decoration: none;
+}

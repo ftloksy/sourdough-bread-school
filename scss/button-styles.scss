@@ -1,0 +1,36 @@
+// button handler.
+
+// button-highlight
+@mixin buttonHighLight($subColor) {
+	background-image: linear-gradient(180deg,$white,$subColor);
+	color: $grey;
+};
+
+// button default style.
+.button-style {
+	cursor: pointer;
+	font-size: 18px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        background: transparent;
+        border: 1px solid $grey;
+	box-shadow: 0 1px 0 rgba(0,0,0,.45);
+}
+
+.btn-red {
+	@extend .button-style;
+	background-color: $main-red;
+	background-image: linear-gradient(180deg,$main-red,$sub-red);
+	color: $white;
+}
+
+.btn-preferences{
+	@extend .button-style;
+	@include buttonHighLight($sub-green);
+}
+
+.btn-close {
+	@extend .button-style;
+	@include buttonHighLight($sub-blue);
+}
+

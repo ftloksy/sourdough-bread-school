@@ -1,0 +1,43 @@
+// define display flex
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}	
+
+.flex-row-start {
+    @extend .flex-row;
+    align-items: flex-start;
+}
+
+.flex-row-between {
+	@extend .flex-row;
+	justify-content: space-between;
+}
+
+.flex-row-center-between {
+	@extend .flex-row-between;
+	justify-content: space-between;
+}
+
+.flex-footer-list-rows {
+    display: flex;
+    align-content: flex-start;
+//    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+//    justify-content: center;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+//    justify-content: center;
+}

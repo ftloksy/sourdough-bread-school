@@ -1,0 +1,17 @@
+
+bakercontent {
+	@include content(row-reverse, $bigpicture: false);
+
+	a {
+		display: block;
+		padding-left: 40px;
+		@extend .icon-font;
+	        color: $icon-text;	
+	}
+
+	a:hover {
+		color: $icon-background;
+		text-decoration: none;
+	}
+}
+
